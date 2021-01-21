@@ -1,0 +1,5 @@
+click==7.2
+pytest==6.2.1
+tox==3.21.2
+tox-gh-actions==2.4.0
+pandas==1.2

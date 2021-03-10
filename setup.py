@@ -5,7 +5,7 @@
 from setuptools import setup, find_packages
 
 requirements = [
-    "click==7.2",
+    "click==7.1.2",
     "pandas==1.2",
     "pytest==6.2.1",
     "tox==3.21.2",
@@ -13,7 +13,7 @@ requirements = [
 ]
 
 setup_requirements = [
-    "click==7.2",
+    "click==7.1.2",
     "pandas==1.2",
     "genotype-variants==0.3.1",
 ]

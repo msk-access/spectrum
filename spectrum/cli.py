@@ -2,6 +2,17 @@
 import sys
 import click
 
+import click
+
+from .genotype import commands as genotype
+from .cna import commands as cna
+
+@click.group()
+def entry_point():
+    pass
+
+entry_point.add_command(genotype.command_group)
+entry_point.add_command(cna.version)
 
 @click.command()
 def main(args=None):

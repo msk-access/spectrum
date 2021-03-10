@@ -9,11 +9,13 @@ requirements = [
     "pandas==1.2",
     "pytest==6.2.1",
     "tox==3.21.2",
+    "genotype-variants==0.3.1",
 ]
 
 setup_requirements = [
     "click==7.2",
     "pandas==1.2",
+    "genotype-variants==0.3.1",
 ]
 
 test_requirements = [
@@ -41,7 +43,7 @@ setup(
     },
     install_requires=requirements,
     license="Apache Software License 2.0",
-    long_description=readme + "\n\n" + history,
+    long_description="Generate the comprehensive results across multiple samples from a single patient",
     include_package_data=True,
     keywords="spectrum",
     name="spectrum",
